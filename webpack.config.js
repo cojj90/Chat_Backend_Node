@@ -14,7 +14,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /.ts$/, loader: 'awesome-typescript-loader' },
-      {test: /hiredis/, loader: IS_DEV ? 'null' : 'noop'}
+      {test: /hiredis/, loader: IS_DEV ? 'noop' : 'noop'}
     ]
   },
   target: 'node'
