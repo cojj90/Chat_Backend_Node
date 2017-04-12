@@ -1,6 +1,6 @@
 import { person } from "./person";
 //import { Observable} from 'rxjs/Observable';
-import * as redis  from "redis"; //same as var redis = require("redis") 
+import * as redis  from "redis"; //same as var redis = require("redis")
 
 console.log(person.firstName + ' ' + person.lastName);
 
