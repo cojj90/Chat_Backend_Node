@@ -5,11 +5,16 @@
         "target": "es5",
         "noImplicitAny": false,
         "sourceMap": false,
+        "allowJs": true,
         "lib": [
             "dom",
             "es2015"
         ]
     },
+    "include": [
+        "type/**/*",
+        "src/**/*"
+    ],
     "exclude": [
         "node_modules"
     ]
